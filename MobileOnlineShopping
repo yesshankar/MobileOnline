@@ -1,0 +1,64 @@
+package mobileonlineshopping;
+import java.util.ArrayList;
+
+/**
+ *
+ * @author Shankar
+ */
+public class MobileOnlineShopping {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        
+        Brand b1 = new Brand("B01", "Samsung");
+        Brand b2 = new Brand("B02", "Nokia");
+        
+        Model m1 = new Model("M01", "GalaxyS3", "JellyBean 4.2", 255, 55, 100);
+        Model m2 = new Model("M02", "Ace", "Gingerbread 2.2", 240, 50, 90);
+        Model m3 = new Model("M03", "Lumia", "Symbian 6.0" ,260, 45, 105);
+        Model m4 = new Model("M04", "E72", "Symbian 2.3" ,155, 35, 85);
+        
+        Item i1 = new Item("I01", 6, "03/05/2012");
+        Item i2 = new Item("I02", 10, "03/07/2012");
+        Item i3 = new Item("I03", 5, "03/09/2012");
+        Item i4 = new Item("I04", 16, "18/05/2012");
+        Item i5 = new Item("I05", 23, "23/10/2012");
+        Item i6 = new Item("I06", 7, "22/05/2012");
+        Item i7 = new Item("I07", 9, "13/05/2012");
+        Item i8 = new Item("I08", 15, "09/05/2012");
+        
+        ArrayList<Brand> brandList = new ArrayList<>();
+        brandList.add(b1);
+        brandList.add(b2);
+        
+        ArrayList<Model> modelList = new ArrayList<Model>();
+        modelList.add(m1);
+        modelList.add(m2);
+        modelList.add(m3);
+        modelList.add(m4);
+        
+        ArrayList<Item> itemList = new ArrayList<Item>();
+        itemList.add(i1);
+        itemList.add(i2);
+        itemList.add(i3);
+        itemList.add(i4);
+        itemList.add(i5);
+        itemList.add(i6);
+        itemList.add(i7);
+        itemList.add(i8);
+        
+        for(Item var:itemList){
+            var.display();
+        }
+        
+        
+        
+        
+        
+        
+        
+    }
+}
