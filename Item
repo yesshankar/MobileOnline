@@ -1,0 +1,21 @@
+package mobileonlineshopping;
+
+public class Item {
+    
+    String id;
+    int quantity;
+    String purchaseDate;
+    
+    Item(String ide, int qty, String pdt){
+        
+        id = ide;
+        quantity = qty;
+        purchaseDate = pdt;
+    }
+    
+    void display(){
+        
+        System.out.println("ItemID = " + id + "\nQuantaty = " + quantity + "\nPurchaseDate = " + purchaseDate);
+    }
+    
+}
