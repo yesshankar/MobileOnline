@@ -13,7 +13,7 @@ public class MobileOnlineShopping {
     public static void main(String[] args) {
         
         
-        Brand b1 = new Brand("B01", "Samsung");
+        Brand b1 = new Brand("B01", "Samsung"); 
         Brand b2 = new Brand("B02", "Nokia");
         
         Model m1 = new Model("M01", "GalaxyS3", "JellyBean 4.2", 255, 55, 100);
