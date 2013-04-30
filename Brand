@@ -1,0 +1,16 @@
+package mobileonlineshopping;
+
+public class Brand {
+    
+    String id;
+    String name;
+    
+    Brand(String ide, String nam){
+        id = ide;
+        name = nam;
+    }
+    void display(){
+        System.out.println("Brand id = " + name + "\nBrand name = " + name);
+    }
+    
+}
