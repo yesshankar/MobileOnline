@@ -1,0 +1,23 @@
+package mobileonlineshopping;
+
+public class Model {
+    
+    String id;
+    String name;
+    double weight, width, height;
+    String os;
+    
+    Model(String ide, String nam, String osys, double wght, double wd, double hgt){
+        id = ide;
+        name = nam;
+        os = osys;
+        weight = wght;
+        width = wd;
+        height = hgt;
+  }
+    void display(){
+        System.out.println("Model id = " + id + "\nModel name = " + name + "\nweight,width, height = " + weight + " " + width + " " 
+                + height + "OS = " + os);
+    }
+  
+}
